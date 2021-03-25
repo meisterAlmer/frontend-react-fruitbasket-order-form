@@ -6,6 +6,12 @@ html {
   font-size: 16px;
 }
 
+.logo-img {
+  display: block;
+  margin: 0 auto 30px auto;
+  max-width: 600px;
+}
+
 .fruit-section article {
   display: flex;
   margin-bottom: 10px;
