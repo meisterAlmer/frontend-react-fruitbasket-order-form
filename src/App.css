@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.fruit-section article {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.fruit-label {
+  min-width: 120px;
+}
+
+.fruit-section article button {
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+}
+
+.fruit-label {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  min-width: 150px;
+}
+
+.fruit-counter {
+  font-size: 24px;
+  margin: 6px 10px;
+}
+
+.fruit-order {
+  margin: 0 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fruit-order-green {
+  color: lawngreen;
+}
+
+.fruit-section article button:focus {
+  outline: none;
+}
+
+.fruit-section article button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  padding: 8px 4px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  min-width: 180px;
+}
+
+.fruit-section {
+  border: 2px solid #cccccc;
+  margin-bottom: 44px;
+  padding: 22px;
+}
+
+.form-section {
+  border: 2px solid #cccccc;
+  background: #f4f4f4;
+  margin-bottom: 44px;
+  padding: 22px;
+}
+
+article {
+  display: flex;
+}
+
+button {
+  display: inline-block;
+  min-width: 30px;
+}
+
+.error-text {
+  color: red;
+  display: block;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.form-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  min-width: 280px;
+}
+
+.radio-title {
+  min-width: 280px;
+}
+
+.radio-label {
+  display: block;
+}
+
+.form-button {
+  min-width: 200px;
+  margin-top: 16px;
+  border: 1px solid #cccccc;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-button:focus {
+  outline: none;
+}
